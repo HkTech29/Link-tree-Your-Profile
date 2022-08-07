@@ -8,13 +8,14 @@ html {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 100%;
     margin: 0 auto;
     height: 100vh;
-    background-image: url("bg.jpg");
+    background-image: url("item1.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
 }
 
 .profile {
@@ -28,7 +29,9 @@ html {
 .profile>img {
     width: 150px;
     height: 150px;
-    border: 3px solid #222;
+
+    background-color: white;
+    border: 3px solid gainsboro;
     border-radius: 100%;
 }
 
@@ -36,7 +39,7 @@ html {
     font-size: 1.8em;
     font-weight: 900;
     letter-spacing: 2px;
-    color: #fff;
+    color: white;
     text-transform: capitalize;
     text-align: center;
 }
@@ -50,31 +53,26 @@ html {
     padding: 20px;
 }
 
+
 .tree>a{
     text-decoration: none;
     color:#222;
     font-size: 24px;
     text-align: center;
-    border: 3px solid #222;
-    background-color: blanchedalmond;
+    border: 7px solid #808080;
     border-radius: 7px;
     margin: 5px 10px;
     padding: 10px;
     text-transform: uppercase;
     font-weight: 900;
+
 }
+
+
+
 
 .tree>a:hover{
     background-color: azure;
 }
 
 
-.footer {
-    text-align: center;
-
-}
-
-.footer>i {
-    color: white;
-    font-size: 20px;
-}
